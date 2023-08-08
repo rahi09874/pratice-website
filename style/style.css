@@ -23,7 +23,7 @@ html {
 }
 
 header {
-    background: var(--dark);
+    background: var(--dar);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
 }
 
@@ -97,6 +97,7 @@ header nav .branding {
 
 .hero .left img {
     width: 400px;
+    
 }
 
 .hero .right {
@@ -410,15 +411,10 @@ section.work .card-wrapper .card img {
 }
 
 section.blog {
-    background: var(--dark);
+    
     clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
     padding-bottom: 12rem;
 }
-
-section.blog .section-heading {
-    color: var(--pure);
-}
-
 section.blog .card-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
